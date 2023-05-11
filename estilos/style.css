@@ -86,7 +86,7 @@ a{
 
 #mobile > ul > li > a{
     width: 100%;
-    padding: 20px 0px;
+    padding: 21px 0px;
     font-size: 1em;
     text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.336);
 }
@@ -100,8 +100,6 @@ a{
 
 /* Sessão 1*/
 #moda_f{
-    margin: auto;
-   
     width: 100vw;
     height: 500px;
     background-color: var(--cor3);
