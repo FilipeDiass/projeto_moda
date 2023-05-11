@@ -88,7 +88,7 @@ a{
 
 #mobile > ul > li > a{
     width: 100%;
-    padding: 22.5px 0px;
+    padding: 21.5px 0px;
     font-size: 1em;
     text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.336);
 }
@@ -108,21 +108,11 @@ a{
 }
 
 #banner > div{
-    background-color: aqua;
-    height: 100%;
-    width: 100%;
-    max-width: 800px;
-    overflow: hidden;
-    margin: auto;
-    display: flex;
+    width: 100vw;
+    height: 533px;
+    background: white url(../imagens/banner_02.jpg) center top no-repeat ;
+    background-size: contain;
 }
-
-#banner > div > img{
-    width: 100%;
-    background-position: center center;
-   
-}
-
 
 
 
