@@ -105,7 +105,7 @@ a{
 #banner{
     height: 533px;
     width: 100vw;
-    margin-bottom: 35px;
+    
 }
 
 #banner > div{
@@ -131,16 +131,17 @@ a{
 }
 /*Sessão 1*/
 #moda_f{
-    display: flex;
-    justify-content: center;
-    
+    margin: auto;
+    margin-top: 35px;
+    max-width: 900px;
 }
 #moda_f > h1{
     font-family: var(--font_moda);
     background-color: var(--cor5);
+    text-align: center;
     color: white;
     padding: 15px;
-    border-radius: 7px;
+    border-radius: 5px 5px 0px 0px ;
 }
 
 
