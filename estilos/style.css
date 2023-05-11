@@ -29,7 +29,7 @@
 body{
     font-family: var(--font_padrao);
     background-color: var(--cor4);
-    width: 100vw;
+    width: 100%;
     height: 100vh;
 }
 
@@ -63,7 +63,7 @@ a{
 #mobile{
     display: none;
     background-color: var(--cor5);
-    width: 100vw;
+    width: 100%;
     min-width: 302px;
     height: 60px;
     bottom: 0;
@@ -104,12 +104,12 @@ a{
 /* Sessão 1*/
 #banner{
     height: 533px;
-    width: 100vw;
+    width: 100%;
     
 }
 
 #banner > div{
-    width: 100vw;
+    width: 100%;
     height: 533px;
     background: white url(../imagens/backup_original/banner_02.jpg) center top no-repeat;
     background-size: cover;
@@ -132,7 +132,7 @@ a{
 /*Sessão 1*/
 #moda_f{
     margin: auto;
-    margin-top: 35px;
+    margin-top: 40px;
     max-width: 900px;
 }
 #moda_f > h1{
