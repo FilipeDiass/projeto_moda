@@ -61,6 +61,7 @@ a{
 
 /* Menu bottom*/
 #mobile{
+    display: none;
     background-color: var(--cor5);
     width: 100vw;
     min-width: 302px;
@@ -101,10 +102,10 @@ a{
 /* Menu bottom*/
 
 /* Sessão 1*/
-
 #banner{
     height: 533px;
     width: 100vw;
+    margin-bottom: 35px;
 }
 
 #banner > div{
@@ -127,6 +128,19 @@ a{
     border-radius: 10px;
     text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.505);
     box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.322);
+}
+/*Sessão 1*/
+#moda_f{
+    display: flex;
+    justify-content: center;
+    
+}
+#moda_f > h1{
+    font-family: var(--font_moda);
+    background-color: var(--cor5);
+    color: white;
+    padding: 15px;
+    border-radius: 7px;
 }
 
 
