@@ -29,6 +29,8 @@
 body{
     font-family: var(--font_padrao);
     background-color: var(--cor4);
+    width: 100vw;
+    height: 100vh;
 }
 
 /* Menu Top*/
@@ -100,6 +102,26 @@ a{
 
 /* Sessão 1*/
 
+#banner{
+    height: 533px;
+    width: 100vw;
+}
+
+#banner > div{
+    background-color: aqua;
+    height: 100%;
+    width: 100%;
+    max-width: 800px;
+    overflow: hidden;
+    margin: auto;
+    display: flex;
+}
+
+#banner > div > img{
+    width: 100%;
+    background-position: center center;
+   
+}
 
 
 
