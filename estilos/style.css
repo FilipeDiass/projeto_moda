@@ -110,11 +110,23 @@ a{
 #banner > div{
     width: 100vw;
     height: 533px;
-    background: white url(../imagens/banner_02.jpg) center top no-repeat ;
-    background-size: contain;
+    background: white url(../imagens/banner_02.jpg) center top no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: end;
 }
 
-
+#banner > div > p{
+    text-align: center;
+    font-size: 1.2em;
+    color: white;
+    padding: 15px;
+    margin: 0px 10px 10px 10px ;
+    background-color: #404959;
+    border-radius: 10px;
+    text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.505);
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.438);
+}
 
 
 
