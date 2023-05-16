@@ -211,26 +211,6 @@ a{
     border: none;
 }
 
-footer{
-    background-color: var(--cor1);
-    display: flex;
-    justify-content: center;
-    padding-bottom: 100px;
-}
-
-footer > p{
-    color: #282e38;
-    margin-top: 40px;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-footer > p > a{
-    color: #282e38;
-}
-
-footer > p > a:hover{
-    text-decoration: underline;
-}
 
 #banner2{
     height: 430px;
@@ -248,6 +228,8 @@ footer > p > a:hover{
 }
 
 #banner2 > div > p{
+    font-family: var(--font_moda);
+    font-style: oblique;
     min-width: 278px;
     font-size: 1.5em;
     color: white;
@@ -255,6 +237,33 @@ footer > p > a:hover{
     margin: 10px 70px;
     background-color: #404959db;
     border-radius: 10px;
-    text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.714);
-    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.322);
+    text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.795);
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.563);
+}
+
+hr{
+    color: #404959;
+}
+footer{
+    border-top: solid #2c323d 2px ;
+    background-color: var(--cor1);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-bottom: 60px;
+}
+
+footer > p{
+    color: #67748a;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+footer > p > a{
+    color: #67748a;
+}
+footer > p > a:hover{
+    text-decoration: underline;
+    color: #67748a;
 }
