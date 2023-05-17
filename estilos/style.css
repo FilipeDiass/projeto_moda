@@ -54,12 +54,19 @@ header{
 }
 /* Menu Top */
 
+/* Link e animação scroll */
 a{
     color: white;
     text-decoration: none;
 }
 
-/* Menu bottom*/
+html{
+    scroll-behavior: smooth;
+}
+
+/* Link e animação de menu */
+
+/* Menu mobile*/
 #mobile{
     
     background-color: var(--cor5);
@@ -99,7 +106,7 @@ a{
     color: var(--cor5);
     transition: 0.3s;
 }
-/* Menu bottom*/
+/* Menu mobile*/
 
 /* Sessão 1*/
 .banner{
@@ -111,7 +118,7 @@ a{
 .banner > div{
     width: 100%;
     height: 533px;
-    background: white url(../imagens/backup_original/banner_02.jpg) center top no-repeat;
+    background: white url(../imagens/banner_02.jpg) center top no-repeat;
     background-size: cover;
     display: flex;
     align-items: end;
@@ -132,7 +139,7 @@ a{
 }
 /*Sessão 1*/
 
-/*Sessão 2*/
+/*Sessão moda*/
 .moda{
     margin: auto;
     max-width: 900px;
@@ -210,8 +217,9 @@ a{
     transition: 0.3s;
     border: none;
 }
+/* Menu Moda */
 
-
+/* Banner fim*/
 #banner2{
     height: 430px;
     width: 100%;
@@ -240,10 +248,8 @@ a{
     text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.795);
     box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.563);
 }
+/* Banner Fim */
 
-hr{
-    color: #404959;
-}
 footer{
     border-top: solid #2c323d 2px ;
     background-color: var(--cor1);
