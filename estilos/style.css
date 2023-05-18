@@ -142,7 +142,7 @@ html{
 /*Sessão moda*/
 .moda{
     margin: auto;
-    max-width: 900px;
+    max-width: 976px;
     padding-top: 10px;
 }
 
@@ -194,7 +194,7 @@ html{
     display: flex;
     align-items: center;
     justify-content: center;
-    max-width: 900px;
+    max-width: 976px;
     background-color: var(--cor4);
     padding-bottom: 20px;
 }
@@ -217,7 +217,7 @@ html{
     transition: 0.3s;
     border: none;
 }
-/* Menu Moda */
+/*  Moda */
 
 /* Banner fim*/
 #banner2{
@@ -251,7 +251,7 @@ html{
 /* Banner Fim */
 
 footer{
-    border-top: solid #2c323d 2px ;
+    border-top: solid #2c323d 5px ;
     background-color: var(--cor1);
     display: flex;
     justify-content: center;
