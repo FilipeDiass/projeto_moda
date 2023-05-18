@@ -106,6 +106,9 @@ html{
     color: var(--cor5);
     transition: 0.3s;
 }
+#home{
+    display: none;
+}
 /* Menu mobile*/
 
 /* Sessão 1*/

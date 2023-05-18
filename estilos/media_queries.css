@@ -24,6 +24,9 @@
         margin-top: 8px;
         padding-top: 18px;
     }
+    #home{
+        display: none;
+    }
     /* menu */
 
      /* Sessão Moda */
@@ -86,7 +89,6 @@
         display: flex;
         list-style: none;
     }
-    
     #menu_mg > ul > li > a{
         font-family: var(--font_moda);
         font-weight: bolder;
@@ -100,9 +102,26 @@
         color: var(--cor5);
         transition: 0.3s;
     }
+    #home{
+        display: block;
+        position: absolute;
+    }
+    #home > a > img{
+        background-color: #ffffff;
+        border-radius: 50%;
+        width: 50px;
+        position: fixed;
+        bottom: 100px;
+        right: 50px;
+        border: solid var(--cor5) 3.5px;
+    }
+    #home > a > img:hover{
+    background-color: var(--cor4);
+    }
     #mobile{
         display: none;
     }
+    
     /* Menu */
 
      /* Sessão Moda */
